@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background-color: white;
+    margin: 0;
+    padding-top: 0;
+}
+h1.navbar {
+    margin-left: 5%;
+    padding: 10px 0;
+    color: rgb(163, 163, 163); 
+}
+.navbar {
+    background-color: rgb(34,34,34);
+}
+.container {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+h1.box {
+    margin: 10px 25%;
+    text-align: start;
+    font-weight: lighter;
+}
+.add-element {
+    margin: 15px 25%;
+    width: 55%;
+}
+input {
+    padding: 6px 5px;
+    width: 70%;
+}
+button {
+    margin-left: 5px;
+    padding: 7px 14px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: bold;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.list {
+    margin: 10px 25%;
+    width: 50%;
+}
+#holder{
+    overflow: auto;
+    height: 450px;
+}
+.delete{
+    cursor: pointer;
+    width: 20px;
+    margin: auto 10px auto auto;
+}
+.task{
+    margin-top: 15px;
+    font-size: 20px;
+    
+}
+.checkbox{
+    width: 30px;
+    cursor: pointer;
+    margin: 20px 5px 20px 10px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+    border: black 1px solid;
+}
